@@ -9,8 +9,8 @@
     android:shortcutDisabledMessage="@string/compose">
     <intent
       android:action="android.intent.action.VIEW"
-      android:targetClass="com.android.mail.ui.MailActivity"
-	  android:targetPackage="com.android.mail.compose.ComposeActivity" />
+      android:targetPackage="com.android.email"
+	  android:targetClass="com.android.email.activity.ComposeActivityEmailExternal" />
   </shortcut>
 <!-- Specify more shortcuts here. -->
 </shortcuts>
