@@ -3,7 +3,7 @@
   <shortcut
     android:shortcutId="composeActivityEmailExternal"
     android:enabled="true"
-    android:icon="@drawable/ic_pencil_wht_24dp"
+    android:icon="@drawable/ic_pencil"
     android:shortcutShortLabel="@string/compose"
     android:shortcutLongLabel="@string/compose"
     android:shortcutDisabledMessage="@string/compose">
