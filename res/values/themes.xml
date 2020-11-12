@@ -12,7 +12,6 @@
 
     <style name="UnifiedEmailTheme.Appcompat" parent="@style/Theme.AppCompat.Light.DarkActionBar">
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:forceDarkAllowed">true</item>
         <item name="android:statusBarColor">@color/primary_dark_color</item>
         <item name="android:navigationBarColor">@color/primary_dark_color</item>
         <item name="actionModeBackground">@color/action_mode_background</item>
@@ -24,7 +23,6 @@
 
     <style name="UnifiedEmailTheme.Appcompat.Toolbar" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:forceDarkAllowed">true</item>
         <item name="android:statusBarColor">@color/primary_dark_color</item>
         <item name="android:navigationBarColor">@color/primary_dark_color</item>
         <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Light</item>
@@ -38,7 +36,6 @@
 
     <style name="HeaderTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:forceDarkAllowed">true</item>
         <item name="android:statusBarColor">@color/primary_dark_color</item>
         <item name="android:navigationBarColor">@color/primary_dark_color</item>
         <item name="android:windowBackground">@android:color/transparent</item>
@@ -52,7 +49,6 @@
 
     <style name="ComposeTheme" parent="@style/UnifiedEmailTheme.Appcompat">
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:forceDarkAllowed">true</item>
         <item name="android:statusBarColor">@color/primary_dark_color</item>
         <item name="android:navigationBarColor">@color/primary_dark_color</item>
         <item name="colorPrimary">@color/primary_dark_color</item>
@@ -74,13 +70,12 @@
     <style name="ShortcutWidgetTheme" parent="@style/UnifiedEmailTheme.Appcompat" />
 
     <style name="InvisibleShortcutWidgetTheme" parent="@style/ShortcutWidgetTheme">
-        <item name="android:forceDarkAllowed">true</item>
+        
         <item name="android:windowNoDisplay">true</item>
     </style>
 
     <style name="Theme.AppCompat.Translucent">
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:forceDarkAllowed">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
         <item name="android:windowBackground">@android:color/transparent</item>
